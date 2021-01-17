@@ -7,7 +7,8 @@ harsh with your ratings.
 
  * On IMDB, users tend to save a rating of ten to mean their favourite films,
    and a seven to mean worth watching. This leaves most films that are worth
-   watching score a 7, 8 or 9, with the decimal places being statistical.
+   watching score a 7, 8 or 9, with the ordering in these groups coming
+   entirely from aggregate scores.
  * You don't want to give the customer support agent less than five stars,
    because it'll affect their stats.
  * If you buy a product on Amazon and aren't unhappy with it, then it gets
@@ -23,9 +24,7 @@ would be a good idea.__
 
 But anyway, rather than directly collect numerical ratings, we could save the
 order of pairs of things based on some subjective measure, then combine
-linked and overlapping pairs to give an overall score for that metric.
-
-For example:
+linked and overlapping pairs to give rank order. For example:
 
  * Richard Pyror is funnier than Gene Wilder
  * Metal is more fun than Jazz
@@ -33,7 +32,16 @@ For example:
  * My microwave is easier to use than my TV
 
 
- 
-=====
+Combining lists
+---------------
+
+The component data of a list breaks down into a bunch of facts in the form:
+
+"`subject` thinks that `object1` has more `measure` than `object2`"
+
+The client side can ensure that each `subject`'s list for each `measure` is
+internally complete (each item is linked to another) and consistent (there's
+no contradictions), the real problem is how to merge these lists into a larger
+one.
 
 
