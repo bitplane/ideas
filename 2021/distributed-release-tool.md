@@ -93,8 +93,8 @@ contract.
 
 ### Releasing keys after failure
 
-"I don't need to pay, I can just wait until it fails and the keyholders
-get their money back, then get keyholders to leak the keys."
+I don't need to pay, I can just wait until it fails and the keyholders
+get their money back, then get keyholders to leak the keys.
 
 * The license isn't valid if the contract isn't fulfilled. Standard 
 copyright applies, and the media can't be legally used by the community that
@@ -104,7 +104,25 @@ funded it.
 removed by leaking the keys early or outside of the contract terms.
 
 * Some small percentage of each successful contract should go into a reputation
-fund. If anyone can prove that they are dishonest or negligent, they get the
-money.
+fund. If anyone can prove that they are dishonest or negligent, they get a
+portion of the money.
 
-* Reputation should be able to be cashed in without leaking keys.
+### Cashing out reputation
+
+I've built up this reputation fund. I'll spend it by snitching on myself.
+
+* Reputation should be able to be cashed in without leaking keys, but not while
+contracts are open, or until some time after the last contract.
+
+* When you snitch, you don't get the reputation payout any quicker. It's no more
+convenient to snitch on yourself than it is to just wait and then withdraw.
+
+### Reputation farming
+
+I can get reputation by farming Sybil contracts, and get more future contracts
+than others because I have more reputation.
+
+* Allow people with money to stake it in their own reputation fund. So rather
+than earning it by running fake contracts, they can just put their money where
+their mouth is instead.
+
