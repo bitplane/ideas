@@ -18,3 +18,4 @@ Bonus points catalogue:
  * file metadata sections that opens strings that never end
  * use tricks from fuzzers to exhaust memory 
  * randomly generated so impossible to detect by signature alone
+ * take headers from real files that exist on the disk, but with bad contents
