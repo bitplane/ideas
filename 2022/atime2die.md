@@ -37,10 +37,12 @@ and a coverage tool that is far deeper than standard, and 100% coverage.
 ## God king emperor mode
 
 So you have a bunch of services that are RAM heavy, they run across
-a Number of machines. Stick a gateway on the front with MQ architecture.
+a number of machines. Stick a gateway on the front with MQ architecture.
 
-Use your test cases to shrink the images as above and use them for the
-bulk of your services, but keep an unmolested one around too.
+Use ordinary test cases to shrink the images as in Hard Mode and use
+them for.the bulk of your services, but keep an unmolested one around
+too, frozen ready to resume.
+
 If you get a crash:
 
 * Post a message with the request saying it's a bad one
@@ -49,4 +51,5 @@ If you get a crash:
   process again.
 * Redeploy. Rinse and repeat.
 
-Maybe the craziness goes away? Could it be useful? 
+If it means you can run 10x the services with only an occasional risk to
+response times then it might even be a sane idea?!
