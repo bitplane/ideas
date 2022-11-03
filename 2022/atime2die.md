@@ -33,3 +33,20 @@ response. If responses are always smaller than the code, cache it.
 
 This would require tests that cause exceptions in every possible way,
 and a coverage tool that is far deeper than standard, and 100% coverage.
+
+## God king emperor mode
+
+So you have a bunch of services that are RAM heavy, they run across
+a Number of machines. Stick a gateway on the front with MQ architecture.
+
+Use your test cases to shrink the images as above and use them for the
+bulk of your services, but keep an unmolested one around too.
+If you get a crash:
+
+* Post a message with the request saying it's a bad one
+* Spin up a real container process the request
+* Throw the input request into the test case bucket and run the shrink
+  process again.
+* Redeploy. Rinse and repeat.
+
+Maybe the craziness goes away? Could it be useful? 
