@@ -52,7 +52,15 @@ that doesn't belong to any one company.
 * GitHub, gitlab, email, pubsub JavaScript templates for starting pull
   requests.
 
-## investigate
+## investigation
 
-How can we mark a branch as not being a fork of the master branch?
-We don't want accidental pull requests all over the place.
+Q: How can we mark a branch as not being a fork of the master branch? We
+   don't want accidental pull requests all over the place.
+
+A: No way to do this. Create an intentional merge conflict in a file that
+   bollocks the user for trying to merge it.
+
+Q: How could we run edits in a browser?
+
+A: Not sure yet, there's a wasm git client but it needs a CORS-busting
+   git web server which limits its usefulness.
