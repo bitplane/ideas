@@ -13,8 +13,9 @@ What if your distro and desktop weren't on your computer? They were on all your 
 * Pull the main image down. Contains:
   * IPFS which gets mapped to the host's data area
   * Deals with user management and quotas
-  * Pins files in IPFS for users
-  * Webserver that acts as a UI for users
+  * Pins files in IPFS for other users
+  * Webserver that acts as a UI for users logging in
+  * Drops a .desktop file in to enable login
   * XRDP/VNC bridge for remote users
 * Mobile app/html+js 
   * peerjs for communication/authentication
