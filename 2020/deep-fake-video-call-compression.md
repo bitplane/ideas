@@ -8,3 +8,9 @@ Assumptions
 3. We can mask out the face region, transfer the video without the face.
 4. The pose data plus the stream without a face will be smaller than the complete video stream.
 5. We can compare what the person at the other end will see, with the real video, and if the differences are too much, just switch back to the full stream.
+
+
+update
+------
+
+nvidia did this - so I guess it worked after all? :D
