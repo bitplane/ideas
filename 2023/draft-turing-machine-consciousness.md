@@ -1,7 +1,8 @@
-Can AI be conscious?
+Can software be conscious?
 ================================================================================
 
-No.
+No. Why would logic gates in silicon feel like anything other than electrified
+silicon?
 
 The odds
 --------------------------------------------------------------------------------
@@ -20,8 +21,9 @@ together you can have a rough idea of which is most likely.
 
 Let's say you have two theories like:
 
-a) evolution created the diversity of life (99% sure)
-b) through the will of God (99.99999999% sure)
+a. evolution created the diversity of life (99% sure)
+
+b. through the will of God (99.99999999% sure)
 
 The likelihood of `a*b` will always be less than `a` no matter how sure you are
 about God's will, so if you can use Occam's razor to shave away the second
@@ -77,16 +79,16 @@ reality that follows rigid physical law? Why do we think think that mind is a
 special case that needs to be explained away? The answer is cultural and
 religious.
 
-Christian dualism underpins all of Western science. It's a search by humble
-and meek souls to find glory in understanding His Creation, He being the king
-of kings, and for these humble and meek souls to know His Law.
+Judeo-Christian dualism underpins all of Western science. It's historically a
+search by humble and meek souls to understand His Creation, for humble and
+meek souls to know His Law.
 
 God used to be part of day-to-day life and a way to explain the unknown, but
 has been pushed aside as our knowledge of the world has grown; "god of the
 gaps". We don't consider lightning, storms, earthquakes or disease the
 wrath of our God anymore as we have scientific explanations for these. The
 creation of the world is now the natural consequence of physical laws that we've
-observed, nature is now explained by evolution rather than God's grand design
+observed, biology is now explained by evolution rather than God's grand design,
 and even when people pray for a cure it's delivered through evidence-based
 medicine rather than begging for divine intervention.
 
@@ -97,9 +99,12 @@ back and look at it then it really ought to have been the other way around; a
 "stuff of the gaps" is much more logical than a "mind of the gaps". We search
 for theories as to what the nature of mind is, how it might emerge from a world
 made up of physical stuff, but this objective reality is just the "physical
-realm" dressed in a lab coat. The most logical explanation is that natural law
-is a description of how mind stuff acts, that physical things are a side-effect;
-a manifestation of feeling, of will and of choice.
+realm" dressed in a lab coat. The same can be said of infinities and continua,
+the set of real numbers, 
+
+The most logical explanation is that natural law is a description of how mind
+stuff acts, that physical things are a side-effect; a manifestation of feeling,
+of will and of choice.
 
 I'd better clarify that I'm not saying that there's a magical universal
 consciousness that has desires and makes choices for us. I'm saying that the
@@ -110,8 +115,8 @@ other in a way that, on average, it carries on looking a rock.
 
 If this still all sounds like a load of abstract rubbish and spiritualist woo,
 there's actually one good, concrete reason why this is the most likely
-explanation of nature. Unlike competing theories it can actually explain the
-evolution of the nervous system.
+explanation of nature. Unlike competing theories it actually makes the evolution
+of nervous systems and selves likely.
 
 The nerve of it
 --------------------------------------------------------------------------------
