@@ -54,6 +54,16 @@ beautiful by default.
 Have a `.css` file for styling from this dir downwards, or `dirname.css` in the
 current dir to style files in a subdir, or `file.css` to style a document.
 
+This keeps the whole thing in the filesystem. "Document templates" would be a
+dir with a css file and a Markdown file.
+
+#### Macros
+
+Macros can be supported everywhere by running them in a `require('vm')` sandbox
+so they don't have access to the filesystem like the main application does. Do
+the same thing as with `.css` files, just load the ones in the path to the
+document.
+
 ### Spreadsheets
 
 If there are .tsv or .csv files in a dir then that dir can be interpreted as a
@@ -63,10 +73,6 @@ Support Markdown in cells as well as HTML and plain text, but if it starts with
 an `=` then it'll be parsed from Excel, GDocs and/or OO.o format(s) to
 javascript functions. The spreadsheet part of the code exposes rows, columns
 and sheets, and there's an API to list and call functions.
-
-#### Macros
-Macros can be supported everywhere by running them in a `require('vm')` sandbox
-so they don't have access to the filesystem like the main application does.
 
 ### Databases
 
@@ -83,6 +89,11 @@ applications.
 Use Mermaid embedded in Markdown for mind maps, UML and so on because it Just
 Works; embed an editor for this and you've got a decent vector tool. Use
 `.svg` for embedded vector graphics, and embed an editor for those too.
+
+### Raster Graphics
+
+Obviously there would need to be a simple JPEG / PNG crop and resize tool,
+with local and remote file loading capabilities.
 
 ### Video and Audio
 
@@ -129,7 +140,10 @@ There's enough carrot here, but sometimes you need a stick too.
 
 ## What's missing?
 
+* Email
+* Calendar
+* Task lists
 * Maps
 * 3D
 * WebRTC calls during collaborative editing
-
+* Publishing support via C GitHub and GitLab actions etc.
