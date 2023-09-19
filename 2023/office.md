@@ -18,7 +18,9 @@ say which region they're for, so:
 * Have a REPL loop so editors or users can use the functionality in the js
   file without having to reload it each time they call a function. So `vim`
   or whatever can use it.
-* They can be exposed as an HTTP API, if you really want that, using node.
+* They can be exposed as an HTTP API, using node, giving IoT devices and LLMs
+  the ability to produce and consume documents via this one js file hosted
+  elsewhere.
 
 Pluggable and embedded editors can make use of the API and also provide their
 own, where it makes sense.
@@ -129,4 +131,5 @@ There's enough carrot here, but sometimes you need a stick too.
 
 * Maps
 * 3D
-* others?
+* WebRTC calls during collaborative editing
+
