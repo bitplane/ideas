@@ -125,13 +125,14 @@ for editing, and then squash commits and rebase.
 
 ### Collaborative Editing
 
-Connect to users using `peer.js`, and stream branch commits from branches that
+First we link repos together using the settings file. When you open it, it'll
+add remotes and merge them in, and check for changes in remotes periodically.
+
+Later on we could have a `peer.js` that streams branch commits from branches that
 are forked from the same base.
 
-We could minimize merge conflicts by auto-formatting and changing the
-hard-wrapping settings to something minimal and setting it back before merging
-to the target branch. Yes dirty, but it'd work with most of the formats by
-default.
+Minimize merge conflicts by auto-formatting, and we'd need a merge conflict
+resolution dialog (ew).
 
 ### Exporting
 
@@ -146,4 +147,4 @@ There's enough carrot here, but sometimes you need a stick too.
 * Maps
 * 3D
 * WebRTC calls during collaborative editing
-* Publishing support via C GitHub and GitLab actions etc.
+* Publishing support via GitHub and GitLab actions etc
