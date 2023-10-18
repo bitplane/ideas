@@ -1,6 +1,11 @@
-# FUSE shim for Docker
+# Unprivilaged mountpoints in Docker
 
-Could this work to get custom mounts working?!
+* A background service that stores a mapping between mountpoints and FUSE plugins
+* `fusermount` replacement that adds it to the service
+* A `LD_PRELOAD` shim that replaces kernel calls and forwards them to the service
+  if they match the given path
+
+It'd be slow, but it'd mean we could mount filesystems in Docker.
 
 ```C
 #define _GNU_SOURCE
