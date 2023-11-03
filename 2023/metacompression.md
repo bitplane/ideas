@@ -1,5 +1,5 @@
 make an app that has all libpng, zlib etc versions and
-heuristics fur detection of version, compression ratio
+heuristics for detection of version, compression ratio
 block size etc.
 
 detect the version and settings of a file
